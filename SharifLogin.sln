@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32519.379
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharifLoginService", "cross-platform\SharifLoginService\SharifLoginService.csproj", "{D9E3D617-5373-4974-BCF7-C8B8403AC94D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cross-platform", "cross-platform", "{385E7498-426A-48FD-B29E-40CA542BBB07}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharifLoginWindowsApplicaiton", "cross-platform\SharifLoginWindowsApplicaiton\SharifLoginWindowsApplicaiton.csproj", "{C5E89620-BC31-4A48-A862-214F9A43E6A2}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SharifLoginWindowsSetup", "cross-platform\SharifLoginWindowsSetup\SharifLoginWindowsSetup.vdproj", "{09A50A7C-D80D-4E33-B4C0-A85153156184}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "windows", "windows", "{9C235F90-C427-4B5A-8C43-A4A036AC7B73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharifLoginWindowsApplication", "windows\SharifLoginWindowsApplication\SharifLoginWindowsApplication.csproj", "{9E46B6F9-F538-4F69-8BBD-BB2943F5D697}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SharifLoginSetup", "windows\SharifLoginSetup\SharifLoginSetup.vdproj", "{A348DBA9-F713-4BF5-9213-8B1593A759BC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D9E3D617-5373-4974-BCF7-C8B8403AC94D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9E3D617-5373-4974-BCF7-C8B8403AC94D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9E3D617-5373-4974-BCF7-C8B8403AC94D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9E3D617-5373-4974-BCF7-C8B8403AC94D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5E89620-BC31-4A48-A862-214F9A43E6A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5E89620-BC31-4A48-A862-214F9A43E6A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5E89620-BC31-4A48-A862-214F9A43E6A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5E89620-BC31-4A48-A862-214F9A43E6A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09A50A7C-D80D-4E33-B4C0-A85153156184}.Debug|Any CPU.ActiveCfg = Debug
+		{09A50A7C-D80D-4E33-B4C0-A85153156184}.Debug|Any CPU.Build.0 = Debug
+		{09A50A7C-D80D-4E33-B4C0-A85153156184}.Release|Any CPU.ActiveCfg = Release
+		{09A50A7C-D80D-4E33-B4C0-A85153156184}.Release|Any CPU.Build.0 = Release
+		{9E46B6F9-F538-4F69-8BBD-BB2943F5D697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E46B6F9-F538-4F69-8BBD-BB2943F5D697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E46B6F9-F538-4F69-8BBD-BB2943F5D697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E46B6F9-F538-4F69-8BBD-BB2943F5D697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A348DBA9-F713-4BF5-9213-8B1593A759BC}.Debug|Any CPU.ActiveCfg = Debug
+		{A348DBA9-F713-4BF5-9213-8B1593A759BC}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D9E3D617-5373-4974-BCF7-C8B8403AC94D} = {385E7498-426A-48FD-B29E-40CA542BBB07}
+		{C5E89620-BC31-4A48-A862-214F9A43E6A2} = {385E7498-426A-48FD-B29E-40CA542BBB07}
+		{09A50A7C-D80D-4E33-B4C0-A85153156184} = {385E7498-426A-48FD-B29E-40CA542BBB07}
+		{9E46B6F9-F538-4F69-8BBD-BB2943F5D697} = {9C235F90-C427-4B5A-8C43-A4A036AC7B73}
+		{A348DBA9-F713-4BF5-9213-8B1593A759BC} = {9C235F90-C427-4B5A-8C43-A4A036AC7B73}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFA6298E-D7BB-4464-9CC9-F8CABDAA58E2}
+	EndGlobalSection
+EndGlobal
